@@ -1,0 +1,119 @@
+body {
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+    color: #1e2c65;
+    background: url('Images.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    position: relative;
+    height: 100vh; /* Reduced height for header */
+    display: ruby-text;
+    align-items: center;
+    justify-content: center;
+    color: #030303;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 51, 102, 0.7); /* Dark blue overlay */
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 960px; /* Reduced max-width */
+    margin: 0 auto;
+    padding: 0 15px; /* Reduced padding */
+}
+
+header h1 {
+    font-size: 2.5em; /* Reduced font-size */
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em; /* Reduced font-size */
+    margin-top: 10px; /* Reduced margin-top */
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px; /* Reduced margin-top */
+    padding: 10px 20px; /* Reduced padding */
+    font-size: 0.9em; /* Reduced font-size */
+    color: #fff;
+    background-color: #007BFF; /* Blue button */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+section {
+    padding: 40px 20px; /* Reduced padding */
+    background-color: rgb(87 160 233 / 90%); /* Darker blue with transparency */
+    margin: 20px auto;
+    border-radius: 8px; /* Reduced border-radius */
+    max-width: 800px; /* Reduced max-width */
+}
+
+section h2 {
+    font-size: 2em; /* Reduced font-size */
+    margin-bottom: 15px; /* Reduced margin-bottom */
+}
+
+section p, section ul {
+    font-size: 1em; /* Reduced font-size */
+}
+
+.languages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted minmax value */
+    gap: 15px; /* Reduced gap */
+}
+
+.language-item {
+    background: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    padding: 15px; /* Reduced padding */
+    border-radius: 6px; /* Reduced border-radius */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Adjusted box-shadow */
+}
+
+.language-item h3 {
+    margin-top: 0;
+    font-size: 1.3em; /* Reduced font-size */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #007BFF; /* Blue color for list items */
+    margin: 5px 0; /* Reduced margin */
+    padding: 10px; /* Reduced padding */
+    border-radius: 4px; /* Reduced border-radius */
+    font-size: 1em; /* Reduced font-size */
+}
+
+footer {
+    background-color: rgba(0, 51, 102, 0.8); /* Dark blue with transparency */
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px; /* Reduced padding */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
